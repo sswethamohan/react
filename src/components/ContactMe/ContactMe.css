@@ -1,0 +1,103 @@
+.contact-container{
+    margin:4rem 0;
+    position: relative;
+    margin-top: 200px;
+}
+.contact-container h5{
+    font-size: 55px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: darkorange;
+    margin-left: 450px;
+
+}
+
+.contact-content{
+    display: flex;
+    gap:3rem;
+}
+
+@media (max-width:768px){
+    .contact-content{
+        flex-direction: column-reverse;
+    }
+    .contact-container h5{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.react1{
+    margin-top: 40px;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+.react-icon{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2.65rem;
+    border: 2.5px solid white;
+    justify-content: space-evenly;
+}
+.react-icon img{
+    width: 3rem;
+    display: flex;
+    height: auto;
+    transition: all 0.3s ease;
+}
+.text{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    color: darksalmon;
+   
+}
+.text1 span{
+    font-size: 25px;
+    padding: 30px;
+}
+.span1{
+    margin-left: 50px;
+}
+.span2{
+    margin-left: 30px;
+}
+.span3{
+ margin-right: 40px;
+
+}
+.span4{
+    margin-right: 80px;
+}
+.p1{
+    margin-left: 40px;
+}
+.p2{
+    margin-left: 160px;
+}
+.p3{
+    margin-left: 110px;
+}
+.p4{
+    margin-left: 100px;
+}
+.text3 span{
+    font-size: 25px;
+    padding: 30px;
+}
+.f1{
+    margin-left: 20px;
+}
+.f3{
+    margin-left: 500px;
+}
+.f4{
+    margin-left: 40px;
+}
